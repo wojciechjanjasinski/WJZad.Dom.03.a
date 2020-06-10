@@ -13,12 +13,15 @@ class Trackball {
     Trackball(String n, String p, String t, String pH, int prY, int bS, boolean w, int bN, boolean sW, boolean iP) {
         name = n;
         producer = p;
+        type = t;
         preferedHand = pH;
-        ballSize = 0;
-        wireless = false;
-        buttonNumber = 3;
-        scrollWhell = true;
-        inProduction = true;
+        productionYear = prY;
+        ballSize = bS;
+        wireless = w;
+        buttonNumber = bN;
+        scrollWhell = sW;
+        inProduction = iP;
+
 
     }
 
