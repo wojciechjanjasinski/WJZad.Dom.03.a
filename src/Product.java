@@ -30,4 +30,11 @@ class Product {
         from = f;
         till = ti;
     }
+    Product(String n, String pro, double pri, String d, boolean a) {
+        name = n;
+        producer = pro;
+        price = pri;
+        description = d;
+        availability = a;
+    }
 }
