@@ -5,7 +5,9 @@ class Product {
     String description;
     boolean availability;
     Category category;
-    double specialPrice;
+    double discount;
+    String from;
+    String till;
 
     Product(String n, String pro, double pri, String d, boolean a, Category c) {
         name = n;
@@ -17,13 +19,15 @@ class Product {
 
     }
 
-    Product(String n, String pro, double pri, String d, boolean a, double sP, Category c) {
+    Product(String n, String pro, double pri, String d, boolean a, double di, Category c, String f, String ti) {
         name = n;
         producer = pro;
         price = pri;
         description = d;
         availability = a;
         category = c;
-        specialPrice = sP;
+        discount = di;
+        from = f;
+        till = ti;
     }
 }
