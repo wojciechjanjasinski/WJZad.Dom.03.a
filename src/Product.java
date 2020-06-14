@@ -4,13 +4,26 @@ class Product {
     double price;
     String description;
     boolean availability;
-    Category name25;
+    Category category;
+    double specialPrice;
 
-    Product (String n, String pro, double pri, String d, boolean a){
+    Product(String n, String pro, double pri, String d, boolean a, Category c) {
         name = n;
         producer = pro;
         price = pri;
         description = d;
         availability = a;
+        category = c;
+
+    }
+
+    Product(String n, String pro, double pri, String d, boolean a, double sP, Category c) {
+        name = n;
+        producer = pro;
+        price = pri;
+        description = d;
+        availability = a;
+        category = c;
+        specialPrice = sP;
     }
 }
